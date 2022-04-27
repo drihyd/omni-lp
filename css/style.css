@@ -92,6 +92,20 @@ footer{
     color: #fff;
 }
 
+@media(max-width: 480px){
+    footer{
+        padding: 30px 20px;
+    }
+    .footer-menu-divider{
+        border-right: 0;
+    }
+    .footer-wrapper{
+        padding: 10px 0px;
+    }
+    .footer-logo-wrapper{
+        display: initial;
+    }
+}
 
 /*Body CSS BEGINS*/
 
@@ -128,4 +142,47 @@ footer{
     font-weight: 600;
 }
 
+.highlights-sec{
+    background: #D9EFFC;
+    padding: 15px 0px;
+}
+
+.highlights-item p{
+    margin-bottom: 0px;
+}
+.highlights-border{
+    border-right: 5px solid #0A466F;
+    display: flex;
+    justify-content: center;
+}
+.highlights-border:last-child{
+    border-right: 0;
+}
+.highlights-item p.number{
+    color: #0A466F;
+    font-weight: bold;
+    font-size: 30px;
+}
+.highlights-item p.highlights-label{
+    color: #0A466F;
+    font-size: 20px;
+}
+
+@media(max-width: 480px){
+    .highlights-border{
+        border-right: 5px solid #0A466F;
+        display: initial;
+        padding: 0px 20px;
+        margin-bottom: 30px;
+    }
+    .highlights-border:nth-child(2){
+        border-right: 0;
+    }
+    .highlights-item p.number{
+        font-size: 26px;
+    }
+    .highlights-item p.highlights-label{
+        font-size: 16px;
+    }
+}
 /*Body CSS ENDs*/
