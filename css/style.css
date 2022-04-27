@@ -74,6 +74,9 @@ footer{
 .footer-menu-divider{
     border-right: 5px solid #E6E6E6;
 }
+.footer-menu-divider:last-child{
+    border-right: 0;
+}
 .footer-wrapper{
     padding: 30px 20px;
 }
