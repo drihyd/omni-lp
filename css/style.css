@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url('../fonts/MyriadPro-Regular.otf') format('otf'),
+         url('../fonts/MyriadPro-Regular.otf') format('otf');
+}
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url('../fonts/MyriadPro-Semibold.otf') format('otf'),
+         url('../fonts/MyriadPro-Semibold.otf') format('otf');
+}
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: url('../fonts/pts55f-webfont.ttf') format('ttf'),
+         url('../fonts/pts55f-webfont.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: url('../fonts/pt-sans.bold.ttf') format('ttf'),
+         url('../fonts/pt-sans.bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Gotham Black', sans-serif;
+    src: url('../fonts/Rupee_Foradian.ttf') format('ttf'),
+         url('../fonts/Rupee_Foradian.ttf') format('ttf');
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #707070;
+                                                
+}
+section{
+    padding: 60px 0px;
+}
+
+header{
+    background: #E6E6E6;
+    padding: 15px 0px;
+}
+
+
+footer{
+    background: #000E49;
+    padding: 0px 30px;
+}
+.footer-logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-menu-divider{
+    border-right: 5px solid #E6E6E6;
+}
+.footer-wrapper{
+    padding: 30px 20px;
+}
+.footer-menu-heading{
+    color: #0083DB;
+    font-size: 18px;
+}
+.footer-menu-list{
+    padding-left: 0;
+    list-style-type: none;
+}
+.footer-menu-list li a{
+    color: #fff;
+}
