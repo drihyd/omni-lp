@@ -244,4 +244,33 @@ footer{
     }
 }
 
+.callbackform-wrapper{
+    background: #7CB5E7;
+}
+.callback-form-wrap-padding{
+    padding: 20px 50px;
+}
+.callbackform-wrapper h4{
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.callbackform-wrapper label{
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.form-control{
+    border-radius: 0px;
+}
+
+.btn-appointment{
+    background: linear-gradient(180deg, #2FA0F3, #1D63CC);
+    padding: 40px 10px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
 /*Body CSS ENDs*/
