@@ -34,6 +34,24 @@ body {
     color: #707070;
                                                 
 }
+
+h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
 section{
     padding: 60px 0px;
 }
@@ -70,3 +88,41 @@ footer{
 .footer-menu-list li a{
     color: #fff;
 }
+
+
+/*Body CSS BEGINS*/
+
+.hero-banner{
+    background: #002348;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.form-wrapper{
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+.form-wrapper h4{
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.form-wrapper label{
+    color: #000;
+    font-weight: 600;
+}
+
+.btn.btn-brand{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: #2854A4;
+    color: #fff;
+    box-shadow: 2px 0px 6px 4px #ddd;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/*Body CSS ENDs*/
